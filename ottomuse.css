@@ -1,0 +1,21 @@
+/* Use the system font stack */
+/* https://systemfontstack.com/ */
+
+* { 
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  text-transform: none;
+}
+
+/* Shorten the League Name */
+
+.league-home-tab {
+  max-width: 200px;
+  overflow: hidden;
+  vertical-align:top;
+}
+
+.league-home-tab a {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
